@@ -15,169 +15,173 @@
     </style>
 </head>
 
-<header>
+<body>
+    <header>
 
-    <nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;">
-        <div class="container">
-            <a class="navbar-brand" href="#">Home </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;">
+            <div class="container">
+                <a class="navbar-brand" href="#">Home </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Bloge</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Courses
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Web Development </a></li>
+                                <li><a class="dropdown-item" href="#">Cyber Security</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Networking</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Carousel start  -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-fluid"" src=" images/img1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid"" src=" images/img2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid"" src=" images/img3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Bloge</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Pages</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link  active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Courses
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Web Development </a></li>
-                            <li><a class="dropdown-item" href="#">Cyber Security</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Networking</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active">Contact</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </nav>
-    <!-- Carousel start  -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="img-fluid"" src=" images/img1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img class="img-fluid"" src=" images/img2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img class="img-fluid"" src=" images/img3.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <!-- Carousel end  -->
+        <!-- Carousel end  -->
 
-</header>
+    </header>
 
-<!-- main section start -->
-<main>
-    <section>
+    <!-- main section start -->
+    <main>
 
-    </section>
+        <!-- card section  -->
+        <section class="my-4">
+            <div class="container">
+                <h1 class="fw-bold my-5"><span class="text-primary fw-bold">Popular </span> Courses </h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://eduma.thimpress.com/demo-marketplace/wp-content/uploads/sites/99/2022/11/create-an-lms-website-with-learnpress-4-675x450.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Introducetion To LearnMS</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Start Learning
+                                </button>
 
-    <!-- card section  -->
-    <section class="my-4">
-        <div class="container">
-            <h1 class="fw-bold my-5"><span class="text-primary fw-bold">Popular </span> Courses </h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="https://eduma.thimpress.com/demo-marketplace/wp-content/uploads/sites/99/2022/11/create-an-lms-website-with-learnpress-4-675x450.png"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Introducetion To LearnMS</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card-footer">
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
-                                Start Learning
-                            </button>
-
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="https://eduma.thimpress.com/demo-marketplace/wp-content/uploads/sites/99/2022/12/Introduction-learnpress-lms-plugin-4-675x450.png"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Intrpduction To LearnPress Course</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
-                        </div>
-                        <div class="card-footer">
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
-                                Start Learning
-                            </button>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://eduma.thimpress.com/demo-marketplace/wp-content/uploads/sites/99/2022/12/Introduction-learnpress-lms-plugin-4-675x450.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Intrpduction To LearnPress Course</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional
+                                    content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Start Learning
+                                </button>
 
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="https://eduma.thimpress.com/demo-marketplace/wp-content/uploads/sites/99/2022/10/eduma-learnpress-lms-4-675x450.png"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">How to Create an online course</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to show that equal
-                                height action.</p>
-                        </div>
-                        <div class="card-footer">
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
-                                Start Learning
-                            </button>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://eduma.thimpress.com/demo-marketplace/wp-content/uploads/sites/99/2022/10/eduma-learnpress-lms-4-675x450.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">How to Create an online course</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This card has even longer content than the first to show that
+                                    equal
+                                    height action.</p>
+                            </div>
+                            <div class="card-footer">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Start Learning
+                                </button>
 
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Are You Soure Start This
-                                                Course ?</h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            Wellcom To Our Courses
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Are You Soure Start
+                                                    This
+                                                    Course ?</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Wellcom To Our Courses
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -185,156 +189,178 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- pagination  -->
-            <div class="w-25 mx-auto my-4">
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination">
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                            </a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </section>
-    <!-- card section end  -->
-
-    <!-- progress section start -->
-    <section>
-        <div class="container">
-            <h1>Our Progress </h1>
-
-            <div class="progress mb-3">
-                <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
-                    aria-label="Success striped example" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100">LearnPress</div>
-            </div>
-            <div class="progress mb-3">
-                <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
-                    aria-label="Info striped example" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                    aria-valuemax="100">LearnMs</div>
-            </div>
-            <div class="progress mb-3">
-                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
-                    aria-label="Warning striped example" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                    aria-valuemax="100">Frontend Web Development</div>
-            </div>
-            <div class="progress mb-3">
-                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"
-                    aria-label="Danger striped example" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                    aria-valuemax="100">FullStack Web Development</div>
-            </div>
-        </div>
-    </section>
-    <!-- progress section end  -->
-
-    <!-- Toast section  start -->
-    <section>
-        <div class="container">
-            <div class="w-50 mx-auto my-5">
-                <button type="button" class="btn btn-primary w-50" id="liveToastBtn">Our Offer </button>
-            </div>
-
-            <div class="toast-container position-fixed bottom-0  p-3 ">
-                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                    <div class="toast-header">
-                        <img class="w-50 h-50" src="offer.jpg" class="rounded" alt="...">
-                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                    </div>
-                    <div class="toast-body ">
-                        Opps,We don't have any offers at the moment
-                    </div>
+                <!-- pagination  -->
+                <div class="w-25 mx-auto my-4">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- toast end  -->
+        </section>
+        <!-- card section end  -->
 
+        <!-- progress section start -->
+        <section>
+            <div class="container">
+                <h1>Our Progress </h1>
 
-    <!-- Accordion section Start  -->
-    <section>
-        <div class="container my-5">
-            <h1 class="text-center mb-4">Frequently Asked And Questions </h1>
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Why Introducetion To LearnMS Course?
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                        aria-label="Success striped example" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100">LearnPress</div>
+                </div>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
+                        aria-label="Info striped example" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                        aria-valuemax="100">LearnMs</div>
+                </div>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                        aria-label="Warning striped example" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                        aria-valuemax="100">Frontend Web Development</div>
+                </div>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"
+                        aria-label="Danger striped example" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                        aria-valuemax="100">FullStack Web Development</div>
+                </div>
+            </div>
+        </section>
+        <!-- progress section end  -->
 
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
+        <!-- Toast section  start -->
+        <section>
+            <div class="container">
+                <div class="w-50 mx-auto my-5">
+                    <button type="button" class="btn btn-primary w-50" id="liveToastBtn">Our Offer </button>
+                </div>
+
+                <div class="toast-container position-fixed bottom-0  p-3 ">
+                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img class="w-50 h-50" src="offer.jpg" class="rounded" alt="...">
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Why Intrpduction To LearnPress Course?
-
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
-                            the collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Why How to Create an online course ?
-
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="toast-body ">
+                            Opps,We don't have any offers at the moment
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- toast end  -->
 
+
+        <!-- Accordion section Start  -->
+        <section>
+            <div class="container my-5">
+                <h1 class="text-center mb-4">Frequently Asked And Questions </h1>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Why Introducetion To LearnMS Course?
+
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Why Intrpduction To LearnPress Course?
+
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Why How to Create an online course ?
+
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Accordion section end  -->
+    </main>
+    <!-- main section end -->
+    <footer>
+        <div class="container bg-success-subtle py-5 text-center">
+            <p>AllRights Reserved By Mosharof &copy; 2024</p>
         </div>
-    </section>
-    <!-- Accordion section end  -->
-</main>
-<footer>
-    <div class="container bg-success-subtle py-5 text-center">
-        <p>AllRights Reserved By Mosharof &copy; 2024</p>
-    </div>
-</footer>
-<!-- main section end -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const toastTrigger = document.getElementById('liveToastBtn')
+        const toastLiveExample = document.getElementById('liveToast')
+
+        if (toastTrigger) {
+            const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+            toastTrigger.addEventListener('click', () => {
+                toastBootstrap.show()
+            })
+        }
+    </script>
+</body>
+
+</html>
